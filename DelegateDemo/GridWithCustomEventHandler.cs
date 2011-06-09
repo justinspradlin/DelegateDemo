@@ -53,7 +53,7 @@ namespace DelegateDemo
       {
          // Do some work on the grid that is listening for the change
 
-         Console.WriteLine(string.Format("{0} - I was received this message from {1} at {2}\r\n\r\n\t{3}\r\n",
+         Console.WriteLine(string.Format("{0} - I received this message from {1} at {2}\r\n\r\n\t{3}\r\n",
                                          this.Name,
                                          ((GridWithCustomEventHandler)sender).Name,
                                          e.Time,
