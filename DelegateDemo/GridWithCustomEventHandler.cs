@@ -9,7 +9,7 @@ namespace DelegateDemo
       // Define the method of the delegate method that will do the work
       public delegate void SomethingChangedHandler(object sender, GridChangedEventArgs e);
 
-      // Create an event that requires the SOmethingChanged delegate 
+      // Create an event that requires the SomethingChanged delegate 
       public event SomethingChangedHandler SomethingChanged;
 
 
@@ -32,7 +32,7 @@ namespace DelegateDemo
       }
 
       /// <summary>
-      /// This represents something chaning in the grid that will 
+      /// This represents something changing in the grid that will 
       /// notify subscribers that the grid changed. Will be fired in Grid 1
       /// </summary>
       public void MakeAChange()
